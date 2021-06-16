@@ -1,3 +1,4 @@
+.vscode
 img-processing/imagenette2-160
 img-processing/output
 *.tgz

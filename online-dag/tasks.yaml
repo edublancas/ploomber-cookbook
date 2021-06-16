@@ -1,0 +1,11 @@
+- source: tasks.sum
+  # this is currently required bc OnlineDAG was originally designed
+  # to transform batch pipelines into online ones. But the values
+  # are ignored. I'll work on updating the API so this is no longer needed
+  product: sum
+
+- source: tasks.multiply
+  product: multiply
+
+- source: tasks.combine
+  product: combine
